@@ -48,7 +48,6 @@ data/
 *.pkl
 *.pickle
 # Keep tracked JSON fixtures but ignore the huge portal dump
-destissp_portal.json
 
 # ─────────────────────────────────────────
 # Embeddings / ML artefacts
@@ -58,14 +57,6 @@ destissp_portal.json
 *.faiss
 *.index
 *.bin
-
-# ─────────────────────────────────────────
-# Database
-# ─────────────────────────────────────────
-db/
-*.db
-*.sqlite
-*.sqlite3
 
 # ─────────────────────────────────────────
 # Frontend / Node
